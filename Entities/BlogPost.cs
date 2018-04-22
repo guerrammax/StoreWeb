@@ -8,6 +8,7 @@ namespace Entities
 {
     public class BlogPost
     {
+
         public int Id { get; set; }
         public string Titulo { get; set; }
         public string Contenido { get; set; }
