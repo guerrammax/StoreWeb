@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    public class BlogPost
+    public partial class BlogPost
     {
 
         public int Id { get; set; }
