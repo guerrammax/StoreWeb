@@ -13,7 +13,7 @@ namespace Entities
         public string Titulo { get; set; }
         public string Contenido { get; set; }
         public string Autor { get; set; }
-        public DateTime Publicacion { get; set; }
+      //  public DateTime Publicacion { get; set; }
 
     }
 }
