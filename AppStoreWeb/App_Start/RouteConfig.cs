@@ -16,7 +16,7 @@ namespace AppStoreWeb
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Blog", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "States", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

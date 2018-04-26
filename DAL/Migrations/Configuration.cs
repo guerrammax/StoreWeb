@@ -5,7 +5,7 @@ namespace DAL.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<DAL.BlogPostContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<DAL.ContextDB>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace DAL.Migrations
             AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(DAL.BlogPostContext context)
+        protected override void Seed(DAL.ContextDB context)
         {
             //  This method will be called after migrating to the latest version.
 

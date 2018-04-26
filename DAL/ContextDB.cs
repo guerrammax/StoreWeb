@@ -8,12 +8,14 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class BlogPostContext : DbContext
+    public class ContextDB : DbContext
     {
-        public BlogPostContext(): base("DefaultConnection")
+        public ContextDB() : base("DefaultConnection")
         {
 
         }
-        public DbSet<BlogPost> BlogPosts { get; set; }
+        public DbSet<State> States { get; set; }
+        public DbSet<Country> Countries { get; set; }
     }
+     
 }
